@@ -12,3 +12,8 @@
   <img src="https://www.kasandbox.org/programming-images/animals/crocodiles.png" alt="Scary crocodiles" width=200"/>
   </body>
   </html>
+
+<TABLE>
+<CAPTION>This is a simple 3x3 table</CAPTION>
+<TR id="row1">
+   <TH>Header 1  <TD>Cell 1  <TD>Cell 2
