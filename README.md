@@ -1,15 +1,25 @@
-<!DOCTYPE html>
-<html>
-    
-  <TABLE>
-<TR id="row1">
-    <TD>Cell 1  <TD>Cell 2 <TD>Cell 3 <TD>Cell 4 <TD>Cell 5 <TD>Cell 6 <TD>Cell 7 <TD>Cell 9 <TD>Cell 7 <TD>Cell 7 <TD>Cell 7 <TD>Cell 7 <TD>Cell 7 <TD>Cell 7 <TD>Cell 7<TD>Cell 7 <TD>Cell 7 
-<TR id="row2">
-   <TH>Header 2  <TD>Cell 3  <TD>Cell 4
-<TR id="row3">
-   <TH>Header 3  <TD>Cell 5  <TD>Cell 6
-</TABLE>
-       
-  </body>
-  </html>
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN">
+<HTML>
+  <HEAD>
+    <TITLE>Table example</TITLE>
+    <STYLE type="text/css">
+      TABLE  { background: #ff0; border: solid black;
+               empty-cells: hide }
+      TR.top { background: red }
+      TD     { border: solid black }
+    </STYLE>
+  </HEAD>
+  <BODY>
+    <TABLE>
+      <TR CLASS="top">
+        <TD> 1 
+        <TD rowspan="2"> 2
+        <TD> 3 
+        <TD> 4 
+      <TR>
+        <TD> 5
+        <TD>
+    </TABLE> 
+  </BODY>
+</HTML>
 
